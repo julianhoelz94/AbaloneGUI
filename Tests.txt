@@ -1,0 +1,941 @@
+abalone> new 9
+New game started. You are X.
+abalone> p
+    O O O O O
+   O O O O O O
+  . . O O O . .
+ . . . . . . . .
+. . . . . . . . .
+ . . . . . . . .
+  . . X X X . .
+   X X X X X X
+    X X X X X
+abalone> m 1 1 2 2
+abalone> p
+    O O O O .
+   O O O O O O
+  . . O O O . .
+ . . . . O . . .
+. . . . . . . . .
+ . . . X . . . .
+  . . X X X . .
+   X X X X X X
+    . X X X X
+abalone> m 1 2 1 1
+abalone> p
+    O O O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . . . . . .
+ . . . X . . . .
+  . . X X X . .
+   X X X X X X
+    X . X X X
+abalone> b
+X: 14
+O: 14
+abalone> m 1 5 2 5
+abalone> p
+    . O O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . O . . . .
+ . . . X X . . .
+  . . X X X . .
+   X X X X X X
+    X . X X .
+abalone> m 1 4 1 5
+abalone> p
+    . . O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . O O . . .
+ . . . X X . . .
+  . . X X X . .
+   X X X X X X
+    X . X . X
+abalone> m 2 3 3 4
+abalone> p
+    . . O . .
+   O O . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X X X . .
+  . . X X X . .
+   X X . X X X
+    X . X . X
+abalone> m 2 5 3 6
+abalone> p
+    . . O . .
+   O . . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X O X . .
+  . . X X X X .
+   X X . X X X
+    X . X . X
+abalone> m 3 4 4 5
+Error! Move not possible.
+abalone> p
+    . . O . .
+   O . . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X O X . .
+  . . X X X X .
+   X X . X X X
+    X . X . X
+abalone> m 3 6 3 5
+abalone> p
+    . . O . .
+   O . . O O O
+  . . . O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X O X . .
+  . X X X O . .
+   X X . X X X
+    X . X . X
+abalone> b
+X: 13
+O: 14
+abalone> m 3 2 3 3
+abalone> p
+    . . O . .
+   O . . . O O
+  . . . O O . .
+ . . . O O O . .
+. . . O O O . . .
+ . . . X O X . .
+  . . X X X O .
+   X X . X X X
+    X . X . X
+abalone> m 1 5 1 4
+abalone> p
+    . . O . .
+   O . . . O O
+  . . . O O . .
+ . . . O O . . .
+. . . O O O . . .
+ . . . X O X . .
+  . . X O X O .
+   X X X X X X
+    X . X X .
+abalone> m 2 6 1 5
+abalone> p
+    . . . . .
+   O . O . O O
+  . . . O O . .
+ . . . O O . . .
+. . . O O O . . .
+ . . . X O X . .
+  . . X O X O .
+   X X X X X .
+    X . X X X
+abalone> m 4 6 3 6
+Error! Move not possible.
+abalone> p
+    . . . . .
+   O . O . O O
+  . . . O O . .
+ . . . O O . . .
+. . . O O O . . .
+ . . . X O X . .
+  . . X O X O .
+   X X X X X .
+    X . X X X
+abalone> m 1 1 2 1
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O O . .
+ . . . O O . . .
+. . . O O O . . .
+ . . . O O X . .
+  X . X O X O .
+   X X X X X .
+    X . X X X
+abalone> b
+X: 13
+O: 14
+abalone> m 1 3 2 4
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . O O . . .
+. . . O O O X . .
+ . . . O O X . .
+  X . O O X O .
+   X X X X X .
+    X . . X X
+abalone> b
+X: 12
+O: 14
+abalone> m 1 1 2 1
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . O O . . .
+. . . . O O X . .
+ X . . O O X . .
+  X . O O X O .
+   X X X O X .
+    . . . X X
+abalone> m 5 7 4 6
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . O O . . .
+. . . . O O . . .
+ X . . O O X . .
+  X . O O X O .
+   X X X X X .
+    . O . X X
+abalone> m 1 5 1 4
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . . O . . .
+. . . . O O . . .
+ X . . O O X . .
+  X . O O O O .
+   X X X X X .
+    . O X X X
+abalone> m 1 5 1 4
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . . O . . .
+. . . . O . . . .
+ X . . O O X . .
+  X . O O O O .
+   X X O X X .
+    O X X X .
+abalone> b
+X: 10
+O: 14
+abalone> m 1 4 1 3
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . . . . . .
+. . . . O . . . .
+ X . . O O X . .
+  X . O O O O .
+   X O O X X .
+    X X X . .
+abalone> b
+X: 9
+O: 13
+abalone> m 1 1 2 1
+Sorry! Machine wins.
+abalone> p
+    . . . . .
+   O . O . . O
+  . . . O . . .
+ . . . . . . . .
+X . . . O . . . .
+ X . . O O X . .
+  X . O O O O .
+   O O . X X .
+    . X X . .
+abalone> b
+X: 8
+O: 13
+abalone> n 7
+New game started. You are X.
+abalone> s
+New game started. You are O.
+abalone> p
+   X X X .
+  X X X X X
+ . . X X . .
+. . . X . . .
+ . . O O . .
+  O O O O O
+   O O O O
+abalone> m 2 2 3 2
+abalone> p
+   . X X .
+  X X X X X
+ . . X X . .
+. . . X . . .
+ . O O X . .
+  O . O O O
+   O O O O
+abalone> m 3 2 3 3
+abalone> p
+   . X X .
+  X X X . X
+ . . X X . .
+. . . X . . .
+ . . X O X .
+  O O O O O
+   O O O O
+abalone> m 1 3 2 3
+abalone> p
+   . X . .
+  X X X X X
+ . . X X . .
+. . X X . . .
+ . . O O X .
+  O O O O O
+   O O . O
+abalone> b
+X: 11
+O: 10
+abalone> m 1 2 1 3
+abalone> p
+   . . . .
+  X X X X X
+ . X X X . .
+. . X X . . .
+ . . O O X .
+  O O O O O
+   O . O O
+abalone> m 1 1 1 2
+abalone> p
+   . . . .
+  X X X . X
+ . X X X . .
+. . X X . . .
+ . . X O X .
+  O O O O O
+   O O O O
+abalone> m 1 4 2 5
+abalone> p
+   . . . .
+  . X X . X
+ . X X X . .
+. . X X . . .
+ . . X O X O
+  O O X O O
+   O O O .
+abalone> b
+X: 11
+O: 9
+abalone> m 2 5 2 6
+abalone> p
+   . . . .
+  . X X . X
+ . X X . . .
+. . X X . . .
+ . . X O X O
+  O X X O .
+   O O O .
+abalone> m 1 3 1 4
+abalone> p
+   . . . .
+  . X X . X
+ . X X . . .
+. . X X . . .
+ . . X O X O
+  X X . O .
+   O O . O
+abalone> m 3 6 2 5
+Sorry! Machine wins.
+abalone> b
+X: 11
+O: 5
+abalone> p
+   . . . .
+  . X X . X
+ . X X . . .
+. . X X . . .
+ . . . O X .
+  X X . O O
+   X O . O
+abalone> s
+New game started. You are X.
+abalone> p
+   O O O O
+  O O O O O
+ . . O O . .
+. . . . . . .
+ . . X X . .
+  X X X X X
+   X X X X
+abalone> help
+Help menu for this Abalone game:
+
+
+Commands:
+
+new [<size>]
+    Creates a new game the given size. If no size is given it uses the last
+    entered size or 9 if the size has never been changed.
+
+switch
+    Creates a new game with the previous size and changes the first player of
+    the game.
+
+move <oldRow> <oldDiag> <newRow> <newDiag>
+    Moves the ball from the old into the new coordinates.
+
+level <newLevel>
+    Sets the difficulty for the machine player.
+
+print
+    Prints the current state of the board.
+
+balls
+    Prints the number of balls each player has.
+
+help
+    Shows this command prompt.
+
+quit
+    Quits the program without saving a game.
+
+
+Arguments:
+
+<size>
+    Must be an odd number greater or equal to 7. The default size is 9.
+
+<oldRow> <oldDiag>
+    Must be a coordinate on the board and also the ball you want to move.
+
+<newRow> <newDiag>
+    Must be a coordinate on the board or one field over the board and also the
+    coordinates you want to move the ball to.
+
+<level>
+    Must be a non-negative, non-zero number. It is recommended not to set the
+    level higher than '3'.
+
+
+Row and Diagonal Coordinates for each slot on the board are determined similar
+to this (Example for a size of 9):
+
+9         O O O O O
+8       O O O O O O
+7     . . O O O . .
+6   . . . . . . . .
+5 . . . . . . . . .
+4 . . . . . . . .
+3 . . X X X . .
+2 X X X X X X
+1 X X X X X
+  1 2 3 4 5 6 7 8 9
+abalone> level 1
+abalone> m 1 1 2 2
+abalone> p
+   O O . O
+  O O O O O
+ . . O O . .
+. . O X . . .
+ . . X X . .
+  X X X X X
+   . X X X
+abalone> m 1 4 2 4
+abalone> p
+   O . . O
+  O O O O O
+ . . X O . .
+. . O X O . .
+ . . X X . .
+  X X X X X
+   . X X .
+abalone> m 1 2 1 1
+abalone> p
+   O . . O
+  O O O O .
+ . . X O O .
+. . O X O . .
+ . . X X . .
+  X X X X X
+   X . X .
+abalone> m 1 1 2 2
+abalone> p
+   O . . O
+  . O O O .
+ . O X X O .
+. . O X O . .
+ . . X X . .
+  X X X X X
+   . . X .
+abalone> m 2 2 3 3
+abalone> p
+   O . . O
+  . . O O X
+ . O X X O .
+. . O X O . .
+ . . X X . .
+  X . X X X
+   . . X .
+abalone> m 3 3 4 4
+abalone> p
+   O . . O
+  . . O X O
+ . O X X O .
+. . O X . . .
+ . . . X . .
+  X . X X X
+   . . X .
+abalone> m 2 4 3 4
+abalone> p
+   O . . O
+  . X O X .
+ . O X X O .
+. . O X O . .
+ . . . X . .
+  X . X . X
+   . . X .
+abalone> m 3 4 4 4
+abalone> p
+   X . . O
+  . X O X .
+ . O X X . .
+. . O X O . .
+ . . . O . .
+  X . X . X
+   . . X .
+abalone> b
+X: 10
+O: 6
+abalone> m 4 4 5 5
+Congratulations! You won.
+abalone> p
+   X . . X
+  . X O X .
+ . O X X . .
+. . O . O . .
+ . . . O . .
+  X . X . X
+   . . X .
+abalone> n 7
+New game started. You are X.
+abalone> p
+   O O O O
+  O O O O O
+ . . O O . .
+. . . . . . .
+ . . X X . .
+  X X X X X
+   X X X X
+abalone> s
+New game started. You are O.
+abalone> p
+   X X X .
+  X X X X X
+ . . X X . .
+. . . X . . .
+ . . O O . .
+  O O O O O
+   O O O O
+abalone> m 2 4 3 5
+abalone> p
+   . X X .
+  X X X X X
+ . . X X . .
+. . . X . . .
+ . . O X O .
+  O O O O O
+   O O O O
+abalone> m 2 4 3 5
+abalone> p
+   . . X .
+  X X X X X
+ . . X X . .
+. . . X X O .
+ . . O X O .
+  O O O . O
+   O O O O
+abalone> n 9
+New game started. You are O.
+abalone> s
+New game started. You are X.
+abalone> p
+    O O O O O
+   O O O O O O
+  . . O O O . .
+ . . . . . . . .
+. . . . . . . . .
+ . . . . . . . .
+  . . X X X . .
+   X X X X X X
+    X X X X X
+abalone> h
+Help menu for this Abalone game:
+
+
+Commands:
+
+new [<size>]
+    Creates a new game the given size. If no size is given it uses the last
+    entered size or 9 if the size has never been changed.
+
+switch
+    Creates a new game with the previous size and changes the first player of
+    the game.
+
+move <oldRow> <oldDiag> <newRow> <newDiag>
+    Moves the ball from the old into the new coordinates.
+
+level <newLevel>
+    Sets the difficulty for the machine player.
+
+print
+    Prints the currentBoard state of the board.
+
+balls
+    Prints the number of balls each player has.
+
+help
+    Shows this command prompt.
+
+quit
+    Quits the program without saving a game.
+
+
+Arguments:
+
+<size>
+    Must be an odd number greater or equal to 7. The default size is 9.
+
+<oldRow> <oldDiag>
+    Must be a coordinate on the board and also the ball you want to move.
+
+<newRow> <newDiag>
+    Must be a coordinate on the board or one field over the board and also the
+    coordinates you want to move the ball to.
+
+<level>
+    Must be a non-negative, non-zero number. It is recommended not to set the
+    level higher than '3'.
+
+
+Row and Diagonal Coordinates for each slot on the board are determined similar
+to this (Example for a size of 9):
+
+9         O O O O O
+8       O O O O O O
+7     . . O O O . .
+6   . . . . . . . .
+5 . . . . . . . . .
+4 . . . . . . . .
+3 . . X X X . .
+2 X X X X X X
+1 X X X X X
+  1 2 3 4 5 6 7 8 9
+abalone> p
+    O O O O O
+   O O O O O O
+  . . O O O . .
+ . . . . . . . .
+. . . . . . . . .
+ . . . . . . . .
+  . . X X X . .
+   X X X X X X
+    X X X X X
+abalone> m 1 1 2 2
+abalone> p
+    O O O O .
+   O O O O O O
+  . . O O O . .
+ . . . . O . . .
+. . . . . . . . .
+ . . . X . . . .
+  . . X X X . .
+   X X X X X X
+    . X X X X
+abalone> b
+X: 14
+O: 14
+abalone> m 2 2 3 3
+abalone> print
+    O O O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . X . . . .
+ . . . X . . . .
+  . . X X X . .
+   X . X X X X
+    . X X X X
+abalone> m 2 1 2 2
+abalone> p
+    . O O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . O . . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X X
+    . X X X X
+abalone>  m 4 4 m 1 4
+Error! Numbers don't have the correct form.
+abalone> m 1 5 1 1
+Error! Move not possible.
+abalone> m 1 5 1 4
+abalone> print
+    . O O . .
+   O . O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . O . . . .
+ . . . X O . . .
+  . . X X X . .
+   . X X X X X
+    X X X X X
+abalone> m 1 2 2 3
+abalone> p
+    . . O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . O O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X X
+    X . X X X
+abalone> m 2 3 3 4
+abalone> print
+    . . O . .
+   O O . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X X X . .
+  . . X X X . .
+   . X . X X X
+    X . X X X
+abalone> b
+X: 14
+O: 14
+abalone> m 1 4 3 6
+Error! Move not possible.
+abalone> p
+    . . O . .
+   O O . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X X X . .
+  . . X X X . .
+   . X . X X X
+    X . X X X
+abalone> m 2 5 3 6
+abalone> p
+    . . O . .
+   O . . O O O
+  . . O O O . .
+ . . . O O O . .
+. . . . O O . . .
+ . . . X O X . .
+  . . X X X X .
+   . X . X X X
+    X . X X X
+abalone> m 4 4 5 4
+abalone> p
+    . . O . .
+   O . . O O O
+  . . . O O . .
+ . . . O O O . .
+. . . X O O . . .
+ . . . . O X . .
+  . . X X O X .
+   . X . X X X
+    X . X X X
+abalone> b
+X: 13
+O: 14
+abalone> m 1 4 m 4 4
+Error! Numbers don't have the correct form.
+abalone> n
+New game started. You are X.
+abalone> print
+    O O O O O
+   O O O O O O
+  . . O O O . .
+ . . . . . . . .
+. . . . . . . . .
+ . . . . . . . .
+  . . X X X . .
+   X X X X X X
+    X X X X X
+abalone> m 1 1 2 2
+abalone> p
+    O O O O .
+   O O O O O O
+  . . O O O . .
+ . . . . O . . .
+. . . . . . . . .
+ . . . X . . . .
+  . . X X X . .
+   X X X X X X
+    . X X X X
+abalone> m 1 5 2 5
+abalone> p
+    O O O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . . . . . .
+ . . . X X . . .
+  . . X X X . .
+   X X X X X X
+    . X X X .
+abalone> m 2 2 3 3
+abalone> p
+    O . O . .
+   O O O O O O
+  . . O O O . .
+ . . . O O . . .
+. . . . X O . . .
+ . . . X X . . .
+  . . X X X . .
+   X . X X X X
+    . X X X .
+abalone> m 1 2 1 1
+abalone> p
+    O . . . .
+   O O O O O O
+  . . O O O . .
+ . . O O O . . .
+. . . . X O . . .
+ . . . X X . . .
+  . . X X X . .
+   X . X X X X
+    X . X X .
+abalone> m 2 1 2 2
+abalone> p
+    O . . . .
+   O O O . O O
+  . . O O O . .
+ . . O O O . . .
+. . . O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X X
+    X . X X .
+abalone> m 1 1 2 1
+abalone> p
+    O . . . .
+   O O . . O O
+  . . O O O . .
+ . . O O O . . .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   X X X X X X
+    . . X X .
+abalone> m 2 1 1 1
+abalone> p
+    O . . . .
+   O O . O O .
+  . . O O O . .
+ . . O O O . . .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X X
+    X . X X .
+abalone> m 1 1 2 2
+abalone> p
+    O . . . O
+   O O . O O .
+  . . O O O . .
+ . . . O O X . .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X X
+    . . X X .
+abalone> m 2 6 1 5
+abalone> p
+    O . . . O
+   O O . O O .
+  . . O O O . .
+ . . . . O O X .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X .
+    . . X X X
+abalone> m 1 3 1 2
+abalone> p
+    . . . . O
+   O O . O O .
+  . . O O O . .
+ . . . O O O X .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X .
+    . X . X X
+abalone> m 1 2 1 1
+abalone> p
+    . . . O .
+   O O . O O .
+  . . O O O . .
+ . . . O O O X .
+. . O O X O . . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X .
+    X . . X X
+abalone> m 1 1 2 2
+abalone> p
+    . . . O O
+   O O . O O .
+  . . O O . . .
+ . . . O X O X .
+. . O O X O O . .
+ . . . X X . . .
+  . . X X X . .
+   . X X X X .
+    . . . X X
+abalone> m 2 2 3 3
+abalone> p
+    . . . . O
+   O O . O O .
+  . . O O X . .
+ . . . O X O X .
+. . O O X O O . .
+ . . O X X . . .
+  . . X X X . .
+   . . X X X .
+    . . . X X
+abalone> m 1 5 2 5
+abalone> p
+    O . . . O
+   O O . O O .
+  . . . O O X .
+ . . . X X O X .
+. . O O X O O . .
+ . . O X X . . .
+  . . X X X . .
+   . . X X X .
+    . . . X .
+abalone> m 3 3 4 4
+abalone> p
+    . . . . O
+   O O . O O .
+  . . O O X X .
+ . . . X X O X .
+. . O O X O O . .
+ . . O X X . . .
+  . . . X X . .
+   . . X X X .
+    . . . X .
+abalone> b
+X: 14
+O: 13
+abalone> q
+
+Process finished with exit code 0
