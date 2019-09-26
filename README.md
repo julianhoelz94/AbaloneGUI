@@ -1,2 +1,2 @@
 # AbaloneGUI
-Abalone game
+Abalone game written in Java.
